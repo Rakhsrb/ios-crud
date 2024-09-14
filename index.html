@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <form>
+          <input type="text" name="firstName" placeholder="FirstName" />
+          <input type="text" name="lastName" placeholder="LastName" />
+          <input type="number" name="phoneNumber" placeholder="Phone Number" />
+          <label>
+            Male
+            <input type="radio" value="male" name="gender" />
+          </label>
+          <label>
+            Female
+            <input type="radio" value="female" name="gender" />
+          </label>
+          <input type="file" name="image" />
+          <input type="reset" />
+          <input type="submit" />
+        </form>
+        <table>
+          <thead>
+            <tr>
+              <th>Photo</th>
+              <th>FirstName</th>
+              <th>LastName</th>
+              <th>PhoneNumber</th>
+              <th>Gender</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.401), rgba(0, 0, 0, 0.435)), url("../assets/bg.jpg");
+  background-size: cover;
+}
+section .container {
+  padding: 20px 0;
+}
+section .container form {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.189), rgba(0, 0, 0, 0.211));
+  border-radius: 20px;
+}
+section .container form input {
+  background: rgba(0, 0, 0, 0.178);
+  border: 0;
+  border-radius: 14px;
+  padding: 10px 20px;
+  color: white;
+}
+section .container form input:focus {
+  outline: 1px rgb(200, 241, 246) solid;
+}
+section .container form label {
+  color: white;
+}
+section .container form input[type=reset] {
+  background: rgb(0, 144, 17);
+}
+section .container form input[type=submit] {
+  background: rgb(30, 137, 214);
+}
+section .container table {
+  width: 100%;
+  margin-top: 50px;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.189), rgba(0, 0, 0, 0.211));
+  border-radius: 20px;
+}
+section .container table thead tr th {
+  padding: 20px 0;
+  color: white;
+}
+section .container table tbody tr td {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+section .container table tbody tr td img {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+section .container table tbody tr td button {
+  background: transparent;
+  border: none;
+}
+section .container table tbody tr td button .edit {
+  color: rgb(0, 229, 255);
+  font-size: 20px;
+  margin: 0 5px;
+}
+section .container table tbody tr td button .delete {
+  color: rgb(255, 38, 0);
+  font-size: 20px;
+  margin: 0 5px;
+}/*# sourceMappingURL=style.css.map */
